@@ -1,0 +1,83 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  /* Colors*/
+  --Dark-01: #181818;
+  --ORANGE: #fd6e0a;
+  --Dark-02: #474747;
+  --Dark-03: #757575;
+  --White-Color: #fff;
+}
+
+.primary-btn {
+  margin-right: 230px;
+  margin-top: 50px;
+  width: 150px;
+  height: 64px;
+  flex-shrink: 0;
+  border-radius: 5px;
+  background: var(--ORANGE);
+  color: var(--White-Color, #fff);
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  border: none;
+}
+
+body {
+  font-family: "Open Sans", serif;
+  line-height: 1.5;
+}
+
+header span {
+  color: var(--ORANGE);
+  font-family: "Open Sans";
+  font-size: 45px;
+  font-style: normal;
+  font-weight: 800;
+  line-height: normal;
+}
+
+nav {
+  display: flex;
+  /* border: 1px solid red; */
+  justify-content: space-around;
+}
+
+.header-title {
+  color: var(--Dark-01, #181818);
+  font-size: 45px;
+  font-style: normal;
+  font-weight: 800;
+  line-height: normal;
+  margin-top: 51px;
+  margin-left: 226px;
+}
+
+nav ul {
+  /* border: 1px solid purple; */
+  margin-top: 68px;
+  margin-right: 51px;
+  display: flex;
+  align-items: center;
+  gap: 51px;
+  margin-left: 633px;
+  list-style: none;
+}
+
+nav ul li {
+  color: var(--Dark-02, #474747);
+  font-family: "Open Sans";
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
