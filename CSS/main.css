@@ -368,3 +368,127 @@ main {
   display: flex;
   justify-content: center;
 }
+
+/* Footer */
+footer {
+  display: flex;
+  justify-content: space-between;
+  gap: 117px;
+  background: #FFF8F3;
+}
+
+.social {
+  margin-top: 130px;
+  margin-left: 230px;
+  margin-bottom: 472px;
+  width: 511px;
+  display: flex;
+  flex-direction: column;
+}
+
+.social h2 {
+  color: var(--Dark-01, #181818);
+  text-align: center;
+  font-family: "Open Sans";
+  font-size: 35px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  margin-bottom: 20px;
+  margin-right: 230px;
+}
+
+.social p {
+  max-width: 562px;
+  color: var(--Dark-02, #474747);
+  font-family: "Open Sans";
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 28px; /* 175% */
+  margin-bottom: 30px;
+}
+
+.social-icons a {
+  text-decoration: none;
+}
+
+.social-icons {
+  gap: 24px;
+}
+
+.contact {
+  width: 511px;
+  margin-top: 130px;
+  margin-right: 230px;
+  margin-bottom: 130px;
+  /* border: 2px solid red; */
+  max-height: auto;
+}
+
+.contact h2 {
+  color: var(--Dark-01, #181818);
+  margin-bottom: 28px;
+  font-family: "Open Sans";
+  font-size: 35px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+
+.name {
+  width: 461px;
+  height: 64px;
+  flex-shrink: 0;
+  border-radius: 5px;
+  background: var(--White-Color, #fff);
+  color: var(--Dark-03, #757575);
+  font-family: "Open Sans";
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 28px; /* 175% */
+  margin-bottom: 24px;
+  border: none;
+  padding: 18px 349px 18px 30px;
+}
+
+.email {
+  width: 461px;
+  height: 64px;
+  flex-shrink: 0;
+  border-radius: 5px;
+  background: var(--White-Color, #fff);
+  color: var(--Dark-03, #757575);
+  font-family: "Open Sans";
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 28px; /* 175% */
+  margin-bottom: 24px;
+  border: none;
+  padding: 18px 349px 18px 30px;
+}
+
+.area {
+  width: 461px;
+  height: 180px;
+  flex-shrink: 0;
+  border-radius: 5px;
+  background: var(--White-Color, #fff);
+  color: var(--Dark-03, #757575);
+  font-family: "Open Sans";
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 28px; /* 175% */
+  margin-bottom: 24px;
+  border: none;
+  padding: 18px 300px 18px 30px;
+}
+
+.contact button {
+  padding: 0;
+  margin: 0;
+  margin-bottom: 0;
+}
