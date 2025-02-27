@@ -371,6 +371,7 @@ main {
 
 /* Footer */
 footer {
+  margin-top: 113px;
   display: flex;
   justify-content: space-between;
   gap: 117px;
