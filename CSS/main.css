@@ -267,7 +267,6 @@ main {
 }
 
 .skills-item-container {
-
   display: flex;
   justify-content: space-around;
   /* border: 2px solid purple; */
@@ -290,4 +289,82 @@ main {
 .skills-item h3 {
   margin-top: 30px;
   margin-bottom: 20px;
+}
+
+/* skills */
+.resume {
+  margin: auto;
+}
+
+.section-part {
+  display: flex;
+  gap: 71px;
+}
+
+.resume h1 {
+  margin-top: 130px;
+  margin-bottom: 113px;
+  color: var(--Dark-01, #181818);
+  text-align: center;
+  font-family: "Open Sans";
+  font-size: 35px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+
+.section-part h2 {
+  margin-bottom: 30px;
+  color: var(--Dark-02, #474747);
+  font-family: "Open Sans";
+  font-size: 30px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+
+.section-part h3 {
+  margin-bottom: 10px;
+  color: var(--Dark-02, #474747);
+  font-family: "Open Sans";
+  font-size: 25px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+
+.section-part h4 {
+  margin-bottom: 20px;
+  color: var(--Dark-03, #757575);
+  font-family: "Open Sans";
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+}
+
+.section-part p {
+  margin-bottom: 30px;
+  color: var(--Dark-03, #757575);
+  font-family: "Open Sans";
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 28px; /* 175% */
+  max-width: 511px;
+}
+
+.section-part hr {
+  background: #d1d1d1;
+  max-width: 558px;
+  max-height: 1px;
+  margin-bottom: 30px;
+}
+
+.b {
+  /* display: block; */
+  /* border: 2px solid green; */
+  /* align-items: center; */
+  display: flex;
+  justify-content: center;
 }
